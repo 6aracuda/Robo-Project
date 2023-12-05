@@ -1,0 +1,163 @@
+body{
+    color: white;
+    font-family: 'Jost', sans-serif;
+}
+header{
+    padding: 30px 100px;
+    background-image: url(/assets/img/background.svg);
+    background-repeat: no-repeat;
+}
+
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-menu{
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 8px 0; 
+}
+.contact-number{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+}
+.girl-text{
+    padding: 314px 280px;
+}
+.logo-text{
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 112px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.about-school{
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.btn{
+    width: 260px;
+    height: 79px;
+    border-radius: 5px;
+    background-color: red;
+}
+.about-robo{
+    color: black;
+    padding: 120px 380px;
+    font-family: Jost;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.count-information{
+    padding: 0px 380px;
+    padding-bottom: 120px;
+    color: red;
+    font-family: Jost;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 112px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex;
+}
+.end-of-enroll{
+    background-color: #F9F9F9;
+}
+.after-enroll{
+    padding-top: 100px;
+    padding-left: 380px;
+    color: black;
+    font-family: Jost;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.enroll-list{
+    padding-left: 380px;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    color: black;
+    font-family: Jost;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex;
+    gap: 100px;
+}
+.under-ul{
+    color: #141024B2;
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.count-list{
+    display: flex;
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    white-space: nowrap;
+    color: #141024B2;
+}
+.count-name{
+    padding-right: 40px;
+}
+.count-name__edit{
+    padding-right: 64px;
+}
+.count-name__edited{
+    white-space: nowrap;
+}
+.icon__i{
+    padding-left: 10px;
+}
+.hint{
+    display: none;
+    width: 251px;
+    height: 56px;
+    background-color: white;
+    box-shadow: 0px 2px 8px 0px #1410241A;
+    color: black;
+    border-radius: 5px;
+    /* Текст */
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    position: absolute;
+    right: 430px;
+}
+.hint.show{
+    display: block;
+}
+.hint.show:hover{
+    transition: 5s;
+}
