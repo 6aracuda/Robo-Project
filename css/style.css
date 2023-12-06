@@ -152,12 +152,162 @@ header{
     line-height: 26px;
     letter-spacing: 0em;
     text-align: center;
-    position: absolute;
-    right: 430px;
 }
 .hint.show{
     display: block;
 }
 .hint.show:hover{
     transition: 5s;
+}
+.prog-children{
+    width: 360px;
+    height: 460px;
+    border-radius: 20px;
+    border: 1px;
+    border: 1px solid #14102433;
+    background-color: white;
+    transition: 0.8s;
+}
+.prog{
+    padding: 0px 380px;
+    display: flex;
+    gap: 40px;
+    padding-bottom: 140px;
+}
+h1{
+    color: black;
+    font-family: Jost;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+h2{
+    padding-top: 83px;
+    color: black;
+    font-family: Jost;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+h3{
+    padding-top: 20px;
+    color: black;
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-bottom: 52px;
+}
+.btn-enroll{
+    margin-left: 40px;
+}
+.after-enroll__roll{
+    padding-top: 100px;
+    padding-left: 380px;
+    color: black;
+    font-family: Jost;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 60px;
+}
+.prog-children:hover{
+    color: white;
+    background-color: #141024;
+    transition: 0.8s;
+    width: 360px;
+    height: 500px;
+    margin-top: -20px;
+}
+.enroll-reg{
+    background-image: url(/assets/img/footer-bg.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.enroll-info{
+    padding-left: 440px;
+    font-family: Jost;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+.enroll-discount{
+    padding-bottom: 214px;
+    padding-left: 440px;
+    padding-top: 20px;
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+input[type=text], select {
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+input[type=submit] {
+    width: 500px;
+    background-color: #141024;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.form-row{
+    display: flex;
+    flex-direction: column;
+    padding-left: 980px;
+}
+.robo-school{
+    font-family: Jost;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    flex: 1;
+}
+.robo-number{
+    font-family: Jost;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+.copyrights{
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.robo-rights{
+   background-color: #141024;
+   display: flex;
+   padding-left: 100px;
+   padding-right: 100px;
+   padding-top: 40px;
 }
