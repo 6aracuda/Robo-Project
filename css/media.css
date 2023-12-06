@@ -1,0 +1,22 @@
+@media(max-width: 1280px){
+    .nav-menu{
+        display: none;
+    }
+    .contact-number{
+        display: none;
+    }
+    .phone-menu{
+        display: block;
+        padding-left:10px;
+    }
+    .burger-menu{
+        display: block;
+    }
+    .menu{
+        display: flex;
+        justify-content: start;
+    }
+    .ves{
+        flex: 1;
+    }
+}

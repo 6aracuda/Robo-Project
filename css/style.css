@@ -311,3 +311,6 @@ input[type=submit] {
    padding-right: 100px;
    padding-top: 40px;
 }
+.phone-menu, .burger-menu{
+    display: none;
+}
