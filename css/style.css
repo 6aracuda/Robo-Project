@@ -1,339 +1,357 @@
-body{
-    color: white;
-    background-color: black;
-    font-family: 'Jost', sans-serif;
+body {
+   color: white;
+   background-color: black;
+   font-family: 'Jost', sans-serif;
 }
-header{
-    /* background-image: url(/assets/img/background.svg);
+header {
+   /* background-image: url(/assets/img/background.svg);
     background-repeat: no-repeat; */
 }
-a{
-    color: white;
-    transition: 0.6s;
+a {
+   color: white;
+   transition: 0.6s;
 }
-h1{
-    color: black;
-    font-family: Jost;
-    font-size: 30px;
-    font-weight: 600;
-    line-height: 48px;
-    letter-spacing: 0em;
-    text-align: center;
+h1 {
+   color: black;
+   font-family: Jost;
+   font-size: 30px;
+   font-weight: 600;
+   line-height: 48px;
+   letter-spacing: 0em;
+   text-align: center;
 }
-h2{
-    padding-top: 83px;
-    color: black;
-    font-family: Jost;
-    font-size: 50px;
-    font-weight: 600;
-    line-height: 80px;
-    letter-spacing: 0em;
-    text-align: center;
+h2 {
+   padding-top: 83px;
+   color: black;
+   font-family: Jost;
+   font-size: 50px;
+   font-weight: 600;
+   line-height: 80px;
+   letter-spacing: 0em;
+   text-align: center;
 }
-h3{
-    padding-top: 20px;
-    color: black;
-    font-family: Jost;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 29px;
-    letter-spacing: 0em;
-    text-align: center;
-    padding-bottom: 52px;
+h3 {
+   padding-top: 20px;
+   color: black;
+   font-family: Jost;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 29px;
+   letter-spacing: 0em;
+   text-align: center;
+   padding-bottom: 52px;
 }
-input[type=text], select {
-    width: 500px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-} 
-input[type=submit] {
-    width: 500px;
-    background-color: #141024;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+input[type='text'],
+select {
+   width: 500px;
+   padding: 12px 20px;
+   /* margin: 8px 0; */
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
 }
-.container{
-    max-width: 1920px;
-    padding-left: 100px;
-    padding-right: 100px;
-    margin: 0 auto;
+input[type='submit'] {
+   width: 500px;
+   background-color: #141024;
+   color: white;
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
 }
-.menu{
-    padding-top: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.container {
+   max-width: 1920px;
+   padding-left: 100px;
+   padding-right: 100px;
+   margin: 0 auto;
 }
-.nav-menu{
-    display: flex;
-    gap: 40px;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
+.menu {
+   padding-top: 30px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
 }
-.header-number{
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 48px;
+.nav-menu {
+   display: flex;
+   gap: 40px;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 32px;
 }
-.girl-text{
-    padding: 314px 280px;
+.header-number {
+   font-weight: 600;
+   font-size: 30px;
+   line-height: 48px;
 }
-.logo-text{
-    font-size: 70px;
-    font-weight: 600;
-    line-height: 112px;
-    letter-spacing: 0em;
-    text-align: left;
+.girl-text {
+   padding: 314px 280px;
 }
-.about-school{
-    font-family: Jost;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
-    letter-spacing: 0em;
-    text-align: left;
-    padding-bottom: 50px;
-    padding-top: 20px;
+.logo-text {
+   font-size: 70px;
+   font-weight: 600;
+   line-height: 112px;
+   letter-spacing: 0em;
+   text-align: left;
 }
-.btn{
-    width: 260px;
-    height: 79px;
-    border-radius: 5px;
-    background-color: red;
-    transition: 0.6s;
+.about-school {
+   font-family: Jost;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 32px;
+   letter-spacing: 0em;
+   text-align: left;
+   padding-bottom: 50px;
+   padding-top: 20px;
 }
-.about-robo{
-    color: black;
-    padding: 120px 380px;
-    font-family: Jost;
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 48px;
-    letter-spacing: 0em;
-    text-align: left;
+.btn {
+   width: 260px;
+   height: 79px;
+   border-radius: 5px;
+   background-color: red;
+   transition: 0.6s;
 }
-.count-information{
-    padding: 0px 380px;
-    padding-bottom: 120px;
-    color: red;
-    font-family: Jost;
-    font-size: 70px;
-    font-weight: 600;
-    line-height: 112px;
-    letter-spacing: 0em;
-    text-align: left;
-    display: flex;
+.about-robo {
+   color: black;
+   padding: 120px 380px;
+   font-family: Jost;
+   font-size: 30px;
+   font-weight: 400;
+   line-height: 48px;
+   letter-spacing: 0em;
+   text-align: left;
 }
-.end-of-enroll{
-    background-color: #F9F9F9;
+.count-information {
+   padding: 0px 380px;
+   padding-bottom: 120px;
+   color: red;
+   font-family: Jost;
+   font-size: 70px;
+   font-weight: 600;
+   line-height: 112px;
+   letter-spacing: 0em;
+   text-align: left;
+   display: flex;
 }
-.after-enroll{
-    padding-top: 100px;
-    padding-left: 380px;
-    color: black;
-    font-family: Jost;
-    font-size: 50px;
-    font-weight: 600;
-    line-height: 80px;
-    letter-spacing: 0em;
-    text-align: left;
+.end-of-enroll {
+   background-color: #f9f9f9;
 }
-.enroll-list{
-    padding-left: 380px;
-    padding-top: 60px;
-    padding-bottom: 100px;
-    color: black;
-    font-family: Jost;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 38px;
-    letter-spacing: 0em;
-    text-align: left;
-    display: flex;
-    gap: 100px;
+.after-enroll {
+   padding-top: 100px;
+   padding-left: 380px;
+   color: black;
+   font-family: Jost;
+   font-size: 50px;
+   font-weight: 600;
+   line-height: 80px;
+   letter-spacing: 0em;
+   text-align: left;
 }
-.under-ul{
-    color: #141024B2;
-    font-family: Jost;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 29px;
-    letter-spacing: 0em;
-    text-align: left;
+.enroll-list {
+   padding-left: 380px;
+   padding-top: 60px;
+   padding-bottom: 100px;
+   color: black;
+   font-family: Jost;
+   font-size: 24px;
+   font-weight: 600;
+   line-height: 38px;
+   letter-spacing: 0em;
+   text-align: left;
+   display: flex;
+   gap: 100px;
 }
-.count-list{
-    display: flex;
-    font-family: Jost;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 29px;
-    letter-spacing: 0em;
-    text-align: left;
-    white-space: nowrap;
-    color: #141024B2;
+.under-ul {
+   color: #141024b2;
+   font-family: Jost;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 29px;
+   letter-spacing: 0em;
+   text-align: left;
 }
-.count-name{
-    padding-right: 40px;
+.count-list {
+   display: flex;
+   font-family: Jost;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 29px;
+   letter-spacing: 0em;
+   text-align: left;
+   white-space: nowrap;
+   color: #141024b2;
 }
-.count-name__edit{
-    padding-right: 64px;
+.count-name {
+   padding-right: 40px;
 }
-.count-name__edited{
-    white-space: nowrap;
+.count-name__edit {
+   padding-right: 64px;
 }
-.icon__i{
-    padding-left: 10px;
+.count-name__edited {
+   white-space: nowrap;
 }
-.hint{
-    display: none;
-    width: 251px;
-    height: 56px;
-    background-color: white;
-    box-shadow: 0px 2px 8px 0px #1410241A;
-    color: black;
-    border-radius: 5px;
-    /* Текст */
-    font-family: Jost;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0em;
-    text-align: center;
+.icon__i {
+   padding-left: 10px;
 }
-.hint.show{
-    display: block;
+.hint {
+   display: none;
+   width: 251px;
+   height: 56px;
+   background-color: white;
+   box-shadow: 0px 2px 8px 0px #1410241a;
+   color: black;
+   border-radius: 5px;
+   /* Текст */
+   font-family: Jost;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 26px;
+   letter-spacing: 0em;
+   text-align: center;
 }
-.prog-children{
-    width: 360px;
-    height: 460px;
-    border-radius: 20px;
-    border: 1px;
-    border: 1px solid #14102433;
-    background-color: white;
-    transition: 0.8s;
+.hint.show {
+   display: block;
 }
-.prog{
-    padding: 0px 380px;
-    display: flex;
-    gap: 40px;
-    padding-bottom: 140px;
+.prog-children {
+   width: 360px;
+   height: 460px;
+   border-radius: 20px;
+   border: 1px;
+   border: 1px solid #14102433;
+   background-color: white;
+   transition: 0.8s;
 }
-.btn-enroll{
-    margin-left: 40px;
+.prog {
+   padding: 0px 380px;
+   display: flex;
+   gap: 40px;
+   padding-bottom: 140px;
 }
-.after-enroll__roll{
-    padding-top: 100px;
-    padding-left: 380px;
-    color: black;
-    font-family: Jost;
-    font-size: 50px;
-    font-weight: 600;
-    line-height: 80px;
-    letter-spacing: 0em;
-    text-align: left;
-    padding-bottom: 60px;
+.btn-enroll {
+   margin-left: 40px;
 }
-.enroll-reg{
-    background-image: url(/assets/img/footer-bg.svg);
-    background-size: 100%;
-    background-repeat: no-repeat;
+.after-enroll__roll {
+   padding-top: 100px;
+   padding-left: 380px;
+   color: black;
+   font-family: Jost;
+   font-size: 50px;
+   font-weight: 600;
+   line-height: 80px;
+   letter-spacing: 0em;
+   text-align: left;
+   padding-bottom: 60px;
 }
-.enroll-info{
-    padding-left: 440px;
-    font-family: Jost;
-    font-size: 36px;
-    font-weight: 600;
-    line-height: 47px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: white;
+.enroll-reg {
+   background-image: url(/assets/img/footer-bg.svg);
+   background-size: 100%;
+   background-repeat: no-repeat;
 }
-.enroll-discount{
-    padding-bottom: 214px;
-    padding-left: 440px;
-    padding-top: 20px;
-    font-family: Jost;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0em;
-    text-align: left;
-    
+.enroll-info {
+   padding-left: 440px;
+   font-family: Jost;
+   font-size: 36px;
+   font-weight: 600;
+   line-height: 47px;
+   letter-spacing: 0em;
+   text-align: left;
+   color: white;
 }
-.form-row{
-    display: flex;
-    flex-direction: column;
-    padding-left: 980px;
-    padding-top: 87px;
-    padding-bottom: 87px;
+.enroll-discount {
+   padding-bottom: 214px;
+   padding-left: 440px;
+   padding-top: 20px;
+   font-family: Jost;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 26px;
+   letter-spacing: 0em;
+   text-align: left;
 }
-.robo-school{
-    font-family: Jost;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 48px;
-    letter-spacing: 0em;
-    text-align: left;
-    flex: 1;
+.form-row {
+   display: flex;
+   flex-direction: column;
+   padding-left: 980px;
+   padding-top: 87px;
+   padding-bottom: 87px;
+   gap: 40px;
 }
-.robo-number{
-    font-family: Jost;
-    font-size: 30px;
-    font-weight: 600;
-    line-height: 48px;
-    letter-spacing: 0em;
-    text-align: right;
+.robo-school {
+   font-family: Jost;
+   font-size: 30px;
+   font-weight: 700;
+   line-height: 48px;
+   letter-spacing: 0em;
+   text-align: left;
+   flex: 1;
 }
-.copyrights{
-    font-family: Jost;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0em;
-    text-align: center;
+.robo-number {
+   font-family: Jost;
+   font-size: 30px;
+   font-weight: 600;
+   line-height: 48px;
+   letter-spacing: 0em;
+   text-align: right;
 }
-.robo-rights{
+.copyrights {
+   font-family: Jost;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 26px;
+   letter-spacing: 0em;
+   text-align: center;
+}
+.robo-rights {
    background-color: #141024;
    display: flex;
    padding-left: 100px;
    padding-right: 100px;
    padding-top: 40px;
 }
-.phone-menu, .burger-menu{
-    display: none;
+.phone-menu,
+.burger-menu {
+   display: none;
 }
 
 /* Анимации */
-.hint.show:hover{
-    transition: 5s;
+.hint.show:hover {
+   transition: 5s;
 }
-.prog-children:hover{
-    color: white;
-    background-color: #141024;
-    transition: 0.8s;
-    width: 360px;
-    height: 500px;
-    margin-top: -20px;
+.prog-children:hover {
+   color: white;
+   background-color: #141024;
+   transition: 0.8s;
+   width: 360px;
+   height: 500px;
+   margin-top: -20px;
 }
-.btn:hover{
-    background-color: rgb(152, 37, 37);
-    transition: 0.6s;
+.btn:hover {
+   background-color: rgb(152, 37, 37);
+   transition: 0.6s;
 }
-a:hover{
-    color: rgb(166, 166, 166);
-    transition: 0.6s;
+a:hover {
+   color: rgb(166, 166, 166);
+   transition: 0.6s;
 }
-.mobile-icons{
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.mobile-icons {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+
+.btn--red {
+   background: rgb(81, 36, 36);
+}
+.btn--black {
+   background: black;
+}
+.container {
+}
+.container--fluid {
+}
+.input::placeholder {
+   color: white;
+   font-size: 20px;
+   /* Font Famaly */
 }
