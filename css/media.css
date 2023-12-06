@@ -2,7 +2,7 @@
     .nav-menu{
         display: none;
     }
-    .contact-number{
+    .header-number{
         display: none;
     }
     .phone-menu{
@@ -11,12 +11,5 @@
     }
     .burger-menu{
         display: block;
-    }
-    .menu{
-        display: flex;
-        justify-content: start;
-    }
-    .ves{
-        flex: 1;
     }
 }
