@@ -19,5 +19,15 @@ function MouseOver() {
       });
    });
 }
+// function FontColorChanger() {
+//    document.getElementById('h1').style.color = '#FFFFFF';
+//    document.getElementById('h2').style.color = '#FFFFFF';
+//    document.getElementById('h3').style.color = '#FFFFFF';
+// }
 
+// function FontColorBack() {
+//    document.getElementById('h1').style.color = '#000000';
+//    document.getElementById('h2').style.color = '#000000';
+//    document.getElementById('h3').style.color = '#000000';
+// }
 MouseOver();

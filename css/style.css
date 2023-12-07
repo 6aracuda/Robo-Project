@@ -40,11 +40,21 @@ input[type='text'],
 select {
    width: 500px;
    padding: 12px 20px;
-   /* margin: 8px 0; */
    display: inline-block;
    border: 1px solid #ccc;
    border-radius: 4px;
    box-sizing: border-box;
+   background-color: white;
+}
+input[type='email'],
+select {
+   width: 500px;
+   padding: 12px 20px;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+   background-color: white;
 }
 input[type='submit'] {
    width: 500px;
@@ -243,16 +253,13 @@ input[type='submit'] {
    border: 1px solid #14102433;
    background-color: white;
    transition: 0.8s;
+   text-align: center;
 }
 .prog {
-   padding: 0px 380px;
    display: flex;
    gap: 40px;
-   padding-bottom: 140px;
 }
 .after-enroll__roll {
-   padding-top: 100px;
-   padding-left: 380px;
    color: black;
    font-family: Jost;
    font-size: 50px;
@@ -260,15 +267,21 @@ input[type='submit'] {
    line-height: 80px;
    letter-spacing: 0em;
    text-align: left;
-   padding-bottom: 60px;
+   padding-bottom: 80px;
 }
 .enroll-reg {
    background-image: url(/assets/img/footer-bg.svg);
-   background-size: 100%;
    background-repeat: no-repeat;
+   background-position: center;
+   max-width: 1920px;
+   padding-left: 440px;
+   padding-right: 440px;
+   padding-top: 87px;
+   display: flex;
+   gap: 144px;
+   margin: 0 auto;
 }
 .enroll-info {
-   padding-left: 440px;
    font-family: Jost;
    font-size: 36px;
    font-weight: 600;
@@ -276,25 +289,22 @@ input[type='submit'] {
    letter-spacing: 0em;
    text-align: left;
    color: white;
+   max-width: 476px;
 }
 .enroll-discount {
-   padding-bottom: 214px;
-   padding-left: 440px;
-   padding-top: 20px;
    font-family: Jost;
    font-size: 20px;
    font-weight: 400;
    line-height: 26px;
    letter-spacing: 0em;
    text-align: left;
+   align-items: center;
 }
 .form-row {
    display: flex;
    flex-direction: column;
-   padding-left: 980px;
-   padding-top: 87px;
-   padding-bottom: 87px;
-   gap: 40px;
+   gap: 10px;
+   align-items: center;
 }
 .robo-school {
    font-family: Jost;
@@ -303,7 +313,8 @@ input[type='submit'] {
    line-height: 48px;
    letter-spacing: 0em;
    text-align: left;
-   flex: 1;
+   max-width: 478px;
+   display: flex;
 }
 .robo-number {
    font-family: Jost;
@@ -312,6 +323,7 @@ input[type='submit'] {
    line-height: 48px;
    letter-spacing: 0em;
    text-align: right;
+   max-width: 255px;
 }
 .copyrights {
    font-family: Jost;
@@ -320,13 +332,16 @@ input[type='submit'] {
    line-height: 26px;
    letter-spacing: 0em;
    text-align: center;
+   max-width: 129px;
 }
 .robo-rights {
    background-color: #141024;
-   display: flex;
+   max-width: 1920px;
    padding-left: 100px;
    padding-right: 100px;
    padding-top: 40px;
+   padding-bottom: 40px;
+   margin: 0 auto;
 }
 .phone-menu,
 .burger-menu {
@@ -365,14 +380,19 @@ a:hover {
 .btn--black {
    background: black;
 }
-.input::placeholder {
-   color: white;
-   font-size: 20px;
-   /* Font Famaly */
-}
 .header-background {
    background-image: url(/assets/img/background.svg);
    background-repeat: no-repeat;
    background-position: center;
    height: 1080px;
+}
+::placeholder {
+   color: black;
+}
+.form-input {
+   padding-bottom: 87px;
+}
+.footer-column {
+   display: flex;
+   justify-content: space-between;
 }
