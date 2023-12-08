@@ -1,15 +1,241 @@
-@media(max-width: 1280px){
-    .nav-menu{
-        display: none;
-    }
-    .header-number{
-        display: none;
-    }
-    .phone-menu{
-        display: block;
-        padding-left:10px;
-    }
-    .burger-menu{
-        display: block;
-    }
+@media (max-width: 1280px) {
+   .nav-menu {
+      display: none;
+   }
+   .header-number {
+      display: none;
+   }
+   .phone-menu {
+      display: block;
+      padding-left: 10px;
+   }
+   .burger-menu {
+      display: block;
+   }
+   .container {
+      padding-left: 10px;
+      padding-right: 10px;
+   }
+   .mobile-icons {
+      display: flex;
+   }
+   .header-wrapper {
+      padding: 50px 49px 10px 39px;
+   }
+   .logo-text {
+      font-family: Jost;
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 48px;
+      letter-spacing: 0em;
+      text-align: center;
+   }
+   .about-school {
+      font-family: Jost;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      letter-spacing: 0em;
+      text-align: center;
+   }
+   .btn {
+      width: 300px;
+      height: 60px;
+      border-radius: 5px;
+      background-color: red;
+      transition: 0.6s;
+   }
+   .button-wrapper {
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 265px;
+      text-align: center;
+   }
+   .logo {
+      font-family: Jost;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 29px;
+      letter-spacing: 0em;
+      text-align: left;
+   }
+   .header-background {
+      background-image: url(/assets/img/background_m.svg);
+      background-position: center 20px;
+      height: 617px;
+   }
+   .header-menu {
+      padding-top: 10px;
+   }
+   .main-wrapper {
+      padding-top: 60px;
+      padding-left: 10px;
+      padding-right: 10px;
+   }
+   .about-robo {
+      max-width: 320px;
+      font-family: Jost;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 32px;
+      letter-spacing: 0em;
+      text-align: left;
+
+      font-family: Jost;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 32px;
+      letter-spacing: 0em;
+      text-align: left;
+   }
+   .count-information {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+   }
+   .numbers {
+      font-family: Jost;
+      font-size: 60px;
+      font-weight: 600;
+      line-height: 87px;
+      letter-spacing: 0em;
+      text-align: center;
+   }
+   .count-list__260,
+   .count-list__236 {
+      text-align: center;
+   }
+   .after-enroll {
+      font-family: Jost;
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 42px;
+      letter-spacing: 0em;
+      text-align: center;
+   }
+   .enroll-list {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+   }
+   .under-ul {
+      text-align: center;
+   }
+   .after-enroll__roll {
+      color: black;
+      font-family: Jost;
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 42px;
+      letter-spacing: 0em;
+      text-align: center;
+      padding-bottom: 80px;
+   }
+   .prog {
+      flex-direction: column;
+      align-items: center;
+   }
+   .prog-children {
+      width: 300px;
+      height: 420px;
+   }
+   .btn-enroll {
+      width: 260px;
+   }
+   .enroll-reg {
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 40px;
+      flex-direction: column;
+      align-items: center;
+      background-color: #d52027;
+      gap: 40px;
+   }
+   .enroll-discount {
+      text-align: center;
+   }
+   .enroll-info {
+      font-family: Jost;
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 42px;
+      letter-spacing: 0em;
+      text-align: center;
+   }
+   .form-input {
+      padding-bottom: 40px;
+   }
+   .robo-rights {
+      padding-top: 40px;
+      padding-left: 92px;
+      padding-right: 92px;
+   }
+   .robo-school {
+      font-family: Jost;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 29px;
+      letter-spacing: 0em;
+      text-align: left;
+      margin: 0 auto;
+   }
+   .robo-number {
+      font-family: Jost;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 26px;
+      letter-spacing: 0em;
+      text-align: center;
+      padding-bottom: 40px;
+   }
+   .footer-column {
+      flex-direction: column;
+      gap: 20px;
+   }
+   input[type='text'],
+   select {
+      width: 300px;
+      padding: 12px 20px;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      background-color: white;
+      color: black;
+   }
+   input[type='email'],
+   select {
+      width: 300px;
+      padding: 12px 20px;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      background-color: white;
+      color: black;
+   }
+   input[type='submit'] {
+      width: 300px;
+      background-color: #141024;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+   }
+   input[type='tel'],
+   select {
+      width: 300px;
+      padding: 12px 20px;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      background-color: white;
+      color: black;
+   }
+   header {
+      background-color: #141024;
+   }
 }
